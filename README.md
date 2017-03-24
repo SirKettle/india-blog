@@ -1,5 +1,5 @@
-# india-harrison-blog
-Harrison‘s blog of India
+# india-blog
+The Thirkettle family‘s blog of India
 
 Based on [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
 
@@ -9,4 +9,4 @@ Based on [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
 ## Building the static files
 `gatsby build`
 
-[GitHub pages site](https://sirkettle.github.io/india-harrison-blog/)
+[GitHub pages site](https://sirkettle.github.io/india-blog/)
