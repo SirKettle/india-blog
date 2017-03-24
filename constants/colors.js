@@ -44,5 +44,5 @@ const darkIndianScheme = {
 export default {
 	...darkIndianScheme
 	,...lightIndianScheme
-	// ,...niceScheme
+	,...niceScheme
 };

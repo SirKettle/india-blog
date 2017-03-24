@@ -23,7 +23,7 @@ class Bio extends React.Component {
             borderRadius: '50%'
           }}
         />
-        Written by <strong>{config.authorName}</strong> who lives in London and goes to school at <a href="https://www.stmarysn8.co.uk/">St. Mary‘s</a>.
+        <strong>{config.authorName}</strong> live in lovely Hornsey in north London. They are individually known as Will, Vicky, Harrison, Elliot and Hattie.
       </p>
     )
   }

@@ -10,7 +10,7 @@ import wallpaper from 'components/elephants.jpg';
 
 theme.baseFontSize = '17px';
 theme.baseLineHeight = 1.6;
-theme.scaleRatio = 3;
+theme.scaleRatio = 2.5;
 theme.googleFonts = [
 	{
 		name: 'Playfair Display',
@@ -59,13 +59,13 @@ theme.overrideThemeStyles = ({ rythym }, options) => ({
 		lineHeight: 1.2
 	},
 	'h1': {
-		letterSpacing: '0.02em'
+		letterSpacing: '0.01em'
 	},
 	'h2': {
-		letterSpacing: '0.12em'
+		letterSpacing: '0.08em'
 	},
 	'h3,h4,h5,h6': {
-		letterSpacing: '0.15em'
+		letterSpacing: '0.1em'
 	},
 	'hr': {
 		background: colors.quotes

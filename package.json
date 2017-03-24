@@ -1,5 +1,5 @@
 {
-  "name": "india-harrison-blog",
+  "name": "india-blog",
   "description": "Blog using GatsbyJs",
   "version": "1.0.0",
   "author": "Will Thirkettle <hello@willthirkettle.co.uk>",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "gh-pages": "^0.12.0"
   },
-  "homepage": "https://github.com/sirkettle/india-harrison-blog#readme",
+  "homepage": "https://github.com/sirkettle/india-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -33,7 +33,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirkettle/india-harrison-blog.git"
+    "url": "git+https://github.com/sirkettle/india-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",

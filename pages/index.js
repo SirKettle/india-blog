@@ -8,7 +8,7 @@ import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
 import Snippet from 'components/Snippet';
-import mummyElliotAndMePhoto from 'components/mummyelliotandme.jpg';
+import inBedPhoto from 'components/images/thirkettles-in-bed.jpg';
 import brothersPortrait from 'components/brothers-portrait.jpg';
 
 class BlogIndex extends React.Component {
@@ -29,12 +29,8 @@ class BlogIndex extends React.Component {
           ]}
         />
         <Bio />
-        <p>I‘m a lucky boy who has the bestest Mummy and Elliot.  Here is us on our last holiday...</p>
-        <img src={ mummyElliotAndMePhoto } />
-        <h3>Elliot</h3>
-        <p>My little brother is called Elliot. Here is a picture I drew of us together</p>
-        <img src={ brothersPortrait } />
-        <h2>Follow my adventure...</h2>
+        <img src={ inBedPhoto } />
+        <h2>Follow our adventure...</h2>
         <div className="snippets">
         {visiblePages.map((page) => (
           <div className="snippetContainer"
