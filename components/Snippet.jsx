@@ -15,6 +15,7 @@ class Snippet extends React.Component {
     const firstSplit = (post.data.body || '').split('src=');
 
     if ( firstSplit.length < 2 ) {
+      return `${ post.path }snippet.jpg`;
       return indiaGraphic;
     }
 
