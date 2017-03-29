@@ -10,7 +10,7 @@ import '../css/zenburn.css'
 
 class BlogPost extends React.Component {
   render () {
-    const { route, children } = this.props
+    const { author, route, children } = this.props
     const post = route.page.data
 
     return (
@@ -26,7 +26,7 @@ class BlogPost extends React.Component {
             marginBottom: rhythm(2),
           }}
         >
-          Posted {moment(post.date).format('LL')}
+          Posted { author ? `by ${author} - ` : null } {moment(post.date).format('LL')}
         </em>
         <hr
           style={{
