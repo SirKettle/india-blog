@@ -1,8 +1,8 @@
 
 import willAvatarSrc from 'images/avatars/will.png';
-import vickyAvatarSrc from 'images/avatars/will.png';
-import harrisonAvatarSrc from 'images/avatars/will.png';
-import elliotAvatarSrc from 'images/avatars/will.png';
+import vickyAvatarSrc from 'images/avatars/vicky.png';
+import harrisonAvatarSrc from 'images/avatars/harrison.png';
+import elliotAvatarSrc from 'images/avatars/elliot.png';
 
 export const AUTHORS = {
   WILL: 'WILL',
