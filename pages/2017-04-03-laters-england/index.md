@@ -3,7 +3,7 @@ title: Laters England
 date: "2017-04-03T10:30:00.000Z"
 path: "/laters-england/"
 readNext: "/hello-india/"
-author: "Will"
+author: "WILL"
 ---
 
 This is my first post and it‘s to say farewell Blighty

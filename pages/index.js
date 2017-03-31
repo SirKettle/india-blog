@@ -8,8 +8,8 @@ import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
 import Snippet from 'components/Snippet';
-import inBedPhoto from 'components/images/thirkettles-in-bed.jpg';
-import brothersPortrait from 'components/brothers-portrait.jpg';
+import inBedPhoto from 'assets/images/thirkettles-in-bed.jpg';
+import brothersPortrait from 'assets/images/brothers-portrait.jpg';
 
 class BlogIndex extends React.Component {
   render () {

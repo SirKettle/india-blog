@@ -6,7 +6,7 @@ import Typography from 'typography';
 // import moragaTheme from 'typography-theme-moraga'
 import theme from 'typography-theme-lincoln';
 import colors from 'constants/colors';
-import wallpaper from 'components/elephants.jpg';
+import wallpaper from 'assets/images/elephants.jpg';
 
 theme.baseFontSize = '17px';
 theme.baseLineHeight = 1.6;
@@ -52,7 +52,7 @@ theme.overrideThemeStyles = ({ rythym }, options) => ({
 	},
 	'.app': {
 		background: colors.bodyBackground,
-		padding: '1.5rem 1.2rem'
+		padding: '1.5rem 1.2rem 2rem'
 	},
 	'h1,h2,h3,h4,h5,h6': {
 		marginBottom: '1.3rem',
@@ -115,7 +115,7 @@ theme.overrideThemeStyles = ({ rythym }, options) => ({
 	},
 	'@media (min-width: 480px)': {
 		'.app': {
-			padding: '2rem 2.5rem',
+			padding: '2rem 2.5rem 3rem',
 			boxShadow: '0 0 10px rgba(0,0,0,0.1)'
 		},
 		'h1,h2,h3,h4,h5,h6': {
@@ -142,7 +142,7 @@ theme.overrideThemeStyles = ({ rythym }, options) => ({
 		// 	zIndex: -1
 		// },
 		'.app': {
-			padding: '2rem 4.5rem'
+			padding: '2rem 4.5rem 4.5rem'
 		},
 		'.snippets > .snippetContainer': {
 	    	marginBottom: '2rem'

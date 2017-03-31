@@ -8,7 +8,7 @@ import harrisonComputeringImage from './snippet.jpg';
 class Post extends React.Component {
   render () {
     return (
-      <BlogPost route={ this.props.route }>
+      <BlogPost route={ this.props.route } author="HARRISON">
         <img src={ harrisonComputeringImage } />
         <p>This is a crazy caky video which smells of poo...</p>
         <ReactPlayer url='https://youtu.be/KHW2051spuU' className="video" />

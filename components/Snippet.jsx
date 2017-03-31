@@ -5,7 +5,6 @@ import { prefixLink } from 'gatsby-helpers'
 import { prune } from 'underscore.string'
 import find from 'lodash/find'
 import { rhythm, scale } from 'utils/typography'
-import indiaGraphic from 'components/images/random/india-graphic.jpg';
 
 class Snippet extends React.Component {
 
@@ -16,7 +15,6 @@ class Snippet extends React.Component {
 
     if ( firstSplit.length < 2 ) {
       return `${ post.path }snippet.jpg`;
-      return indiaGraphic;
     }
 
     return `${ post.path }${ firstSplit[1].split('"')[1] }`;

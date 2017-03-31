@@ -28,15 +28,16 @@ class ReadNext extends React.Component {
 
       return (
         <div>
+          <hr
+            style={{
+              marginTop: rhythm(1.5),
+              marginBottom: rhythm(1.5)
+            }}
+          />
           <h5>
             READ THIS NEXT:
           </h5>
           <Snippet post={ nextPost } />
-          <hr
-            style={{
-              marginTop: rhythm(2)
-            }}
-          />
         </div>
       )
     }

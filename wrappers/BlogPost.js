@@ -1,5 +1,4 @@
 import React from 'react'
-import moment from 'moment'
 import Helmet from "react-helmet"
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
@@ -20,21 +19,14 @@ class BlogPost extends React.Component {
         />
         <h1 style={{marginTop: 0}}>{post.title}</h1>
         { children }
-        <em
-          style={{
-            display: 'block',
-            marginBottom: rhythm(2),
-          }}
-        >
-          Posted { author ? `by ${author} - ` : null } {moment(post.date).format('LL')}
-        </em>
         <hr
           style={{
-            marginBottom: rhythm(2),
+            marginTop: rhythm(1.5),
+            marginBottom: rhythm(1.5)
           }}
         />
+        <Bio author={ author } post={ post } />
         <ReadNext post={post} pages={route.pages} />
-        <Bio />
       </div>
     )
   }

@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import { prefixLink } from 'gatsby-helpers'
 import { GoogleFont, TypographyStyle } from 'react-typography'
 import typography from './utils/typography'
-import favicon from 'components/favicon.png';
+import favicon from 'assets/images/icons/favicon.png';
 
 const BUILD_TIME = new Date().getTime()
 
